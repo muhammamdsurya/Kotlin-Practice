@@ -68,8 +68,26 @@ fun main(){
 //    println(union)
 //    println(intersect)
 
+  // map mempunya key and value
+  val capital = mapOf(
+    "Jakarta" to "Indonesia",
+    "London" to "England",
+    "New Delhi" to "India"
+ )
 
+  // untuk print map bisa menggunakan indexing
+//  println(capital["Jakarta"])
 
+  // untuk mengubah capital kita harus menggunakan mutable
+//  val mutableCapital = capital.toMutableMap()
+//  mutableCapital.put("Amsterdam", "Netherlands")
+//
+//  println(capital)
 
+  // filter list yang angkanya habis dibagi 2
+//  val numberList = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+//  val evenList = numberList.filter { it % 2 == 0 }
+//
+//  print(evenList)
 
 }
